@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>FocusFrame</title>
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/goit-html-css-project/favicon.svg"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" crossorigin href="/goit-html-css-project/assets/index-dd7tXksb.css">
+  </head>
+
+  <body>
+    <div class="hero-header-wrapper">
+      <header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a class="logo" href="./index.html">Focus.Frame</a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <ul class="desktop-nav-list">
+          <li>
+            <a class="desktop-nav-link" href="#about-us">About us</a>
+          </li>
+
+          <li>
+            <a class="desktop-nav-link" href="#courses">Our courses</a>
+          </li>
+
+          <li>
+            <a class="desktop-nav-link" href="#mentors">Our mentors</a>
+          </li>
+
+          <li>
+            <a class="desktop-nav-link" href="#reviews">Reviews</a>
+          </li>
+
+          <li>
+            <a class="desktop-nav-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="desktop-signup" href="#signup">Sign up</a>
+
+      <div class="mobile-controls">
+        <a
+          class="camera-link"
+          href="#signup"
+          aria-label="Go to sign up section"
+        >
+          <svg
+            class="camera-icon"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-camera"></use>
+          </svg>
+        </a>
+
+        <input
+          class="menu-toggle"
+          type="checkbox"
+          id="menu-toggle"
+        >
+
+        <label class="menu-button" for="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <span class="visually-hidden">
+            Open navigation menu
+          </span>
+        </label>
+
+        <div class="mobile-menu">
+          <label
+            class="mobile-menu-close"
+            for="menu-toggle"
+          >
+            ×
+
+            <span class="visually-hidden">
+              Close navigation menu
+            </span>
+          </label>
+
+          <nav class="mobile-nav" aria-label="Mobile navigation">
+            <ul class="mobile-nav-list">
+              <li>
+                <a class="mobile-nav-link" href="#about-us">
+                  About us
+                </a>
+              </li>
+
+              <li>
+                <a class="mobile-nav-link" href="#courses">
+                  Our courses
+                </a>
+              </li>
+
+              <li>
+                <a class="mobile-nav-link" href="#mentors">
+                  Our mentors
+                </a>
+              </li>
+
+              <li>
+                <a class="mobile-nav-link" href="#reviews">
+                  Reviews
+                </a>
+              </li>
+
+              <li>
+                <a class="mobile-nav-link" href="#contacts">
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="mobile-menu-image">
+            Camera image
+          </div>
+        </div>
+
+        <label
+          class="menu-overlay"
+          for="menu-toggle"
+        >
+          <span class="visually-hidden">
+            Close navigation menu
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</header>
+      <section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text-wrap">
+        <h1 class="hero-title">
+          Discover the magic of
+          <span class="hero-title-accent">photography</span>
+          in our school
+        </h1>
+
+        <p class="hero-description">
+          Learn photography, develop your creativity and discover your own
+          unique style with our photography school.
+        </p>
+
+        <div class="hero-students">
+          <div class="hero-students-images">
+            <img
+              class="hero-student-image"
+              src="/goit-html-css-project/assets/student-1-DDjiKVgn.png"
+              srcset="/goit-html-css-project/assets/student-1-DDjiKVgn.png 1x, /goit-html-css-project/assets/student-1@2x-Bz_Jq4sJ.png 2x"
+              alt="Photography student"
+              width="54"
+              height="54"
+            />
+
+            <img
+              class="hero-student-image"
+              src="/goit-html-css-project/assets/student-2-2lSWFO5n.png"
+              srcset="/goit-html-css-project/assets/student-2-2lSWFO5n.png 1x, /goit-html-css-project/assets/student-2@2x-CcQzGKuj.png 2x"
+              alt="Photography student"
+              width="54"
+              height="54"
+            />
+
+            <img
+              class="hero-student-image"
+              src="/goit-html-css-project/assets/student-3-D2A8I4ot.png"
+              srcset="/goit-html-css-project/assets/student-3-D2A8I4ot.png 1x, /goit-html-css-project/assets/student-3@2x-BCi46ImU.png 2x"
+              alt="Photography student"
+              width="54"
+              height="54"
+            />
+          </div>
+
+          <a class="hero-reviews-link" href="#reviews">
+            <span>Our happy students</span>
+            <span class="hero-arrow">↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <img
+          class="hero-image"
+          src="/goit-html-css-project/assets/hero-camera-man-B5Zz0JOS.png"
+          alt="Young photographer holding a camera"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+
+    <main>
+      <div class="advertisement">
+  <div class="advertisement-track">
+    <p class="advertisement-text">
+      <span class="advertisement-accent">Master</span>
+      your photography skills with us!
+    </p>
+
+    <p class="advertisement-text" aria-hidden="true">
+      <span class="advertisement-accent">Master</span>
+      your photography skills with us!
+    </p>
+  </div>
+</div>
+      <section class="about" id="about-us">
+  <div class="container">
+    <h2 class="about-title">
+      About <span class="about-title-accent">Us</span>
+    </h2>
+
+    <div class="about-content">
+      <div class="about-image-wrap">
+        <img
+          class="about-image"
+          src="/goit-html-css-project/assets/about-camera-B_4TSkD1.png"
+          srcset="/goit-html-css-project/assets/about-camera-B_4TSkD1.png 1x, /goit-html-css-project/assets/about-camera@2x-BVEpGqfH.png 2x"
+          alt="Professional camera"
+        />
+      </div>
+
+      <div class="about-texts">
+        <p class="about-text">
+          Our photography school is designed for everyone interested in this art,
+          regardless of their experience or skill level.
+        </p>
+
+        <p class="about-text">
+          We offer a wide range of courses that cover all aspects of photography,
+          from technical skills and composition to artistic expression and
+          creativity.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="courses" id="courses">
+  <div class="container">
+    <div class="courses-top">
+      <h2 class="courses-title">
+        Our <span class="courses-title-accent">Courses</span>
+      </h2>
+
+      <p class="courses-description">
+        At our photography school, we offer a variety of courses that cover all
+        aspects of this fascinating art.
+      </p>
+    </div>
+
+    <ol class="courses-list">
+      <li class="courses-item">
+        <div class="courses-card-top">
+          <span class="courses-number">01</span>
+
+          <a
+            class="courses-link"
+            href="#signup"
+            aria-label="Go to sign up for Basics of photography"
+          >
+            ↗
+          </a>
+        </div>
+
+        <div class="courses-card-bottom">
+          <h3 class="courses-card-title">
+            Basics of photography
+          </h3>
+
+          <p class="courses-card-text">
+            During this course, you will be able to familiarize yourself with
+            different types of cameras, learn the basics of composition.
+          </p>
+        </div>
+      </li>
+
+      <li class="courses-item">
+        <div class="courses-card-top">
+          <span class="courses-number">02</span>
+
+          <a
+            class="courses-link"
+            href="#signup"
+            aria-label="Go to sign up for Landscape photography"
+          >
+            ↗
+          </a>
+        </div>
+
+        <div class="courses-card-bottom">
+          <h3 class="courses-card-title">
+            Landscape photography
+          </h3>
+
+          <p class="courses-card-text">
+            In this course, you will learn how to choose the right angles,
+            frames, and lighting to capture the beauty of nature.
+          </p>
+        </div>
+      </li>
+
+      <li class="courses-item">
+        <div class="courses-card-top">
+          <span class="courses-number">03</span>
+
+          <a
+            class="courses-link"
+            href="#signup"
+            aria-label="Go to sign up for Portrait photography"
+          >
+            ↗
+          </a>
+        </div>
+
+        <div class="courses-card-bottom">
+          <h3 class="courses-card-title">
+            Portrait photography
+          </h3>
+
+          <p class="courses-card-text">
+            During this course, you will learn to choose the right lighting,
+            reproduce the mood and expressions of people.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+      <section class="mentors" id="mentors">
+  <div class="container">
+    <h2 class="mentors-title">
+      Our <span class="mentors-title-accent">Mentors</span>
+    </h2>
+
+    <ul class="mentors-list">
+      <li class="mentors-item">
+        <img
+          class="mentors-image"
+          src="/goit-html-css-project/assets/mentor-1-BQtqcrJr.png"
+          srcset="/goit-html-css-project/assets/mentor-1-BQtqcrJr.png 1x, /goit-html-css-project/assets/mentor-1@2x-DR2CeEwi.png 2x"
+          alt="Emilia Smith"
+          width="180"
+          height="180"
+        />
+
+        <h3 class="mentors-name">Emilia Smith</h3>
+
+        <p class="mentors-experience">
+          1.5 years of experience
+        </p>
+      </li>
+
+      <li class="mentors-item">
+        <img
+          class="mentors-image"
+          src="/goit-html-css-project/assets/mentor-2-DFXs7qLY.png"
+          srcset="/goit-html-css-project/assets/mentor-2-DFXs7qLY.png 1x, /goit-html-css-project/assets/mentor-2@2x-BYFQGb5K.png 2x"
+          alt="Alex Lebedev"
+          width="180"
+          height="180"
+        />
+
+        <h3 class="mentors-name">Alex Lebedev</h3>
+
+        <p class="mentors-experience">
+          3.5 years of experience
+        </p>
+      </li>
+
+      <li class="mentors-item">
+        <img
+          class="mentors-image"
+          src="/goit-html-css-project/assets/mentor-3-yuYDD-_f.png"
+          srcset="/goit-html-css-project/assets/mentor-3-yuYDD-_f.png 1x, /goit-html-css-project/assets/mentor-3@2x-ND7gzFXD.png 2x"
+          alt="Mia Dubois"
+          width="180"
+          height="180"
+        />
+
+        <h3 class="mentors-name">Mia Dubois</h3>
+
+        <p class="mentors-experience">
+          2.0 years of experience
+        </p>
+      </li>
+
+      <li class="mentors-item">
+        <img
+          class="mentors-image"
+          src="/goit-html-css-project/assets/mentor-4-CxsV0wzw.png"
+          srcset="/goit-html-css-project/assets/mentor-4-CxsV0wzw.png 1x, /goit-html-css-project/assets/mentor-4@2x-DHc3nlKP.png 2x"
+          alt="Eliot Kovalev"
+          width="180"
+          height="180"
+        />
+
+        <h3 class="mentors-name">Eliot Kovalev</h3>
+
+        <p class="mentors-experience">
+          4.0 years of experience
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+      <section class="signup" id="signup">
+  <div class="container">
+    <div class="signup-content">
+      <div class="signup-text-wrap">
+        <h2 class="signup-title">
+          Sign <span class="signup-title-accent">Up</span>
+        </h2>
+
+        <p class="signup-description">
+          Please use the form below to contact us. Enter your name, email, and a
+          message, and we'll get back to you shortly.
+        </p>
+
+        <form class="signup-form">
+          <label class="signup-field">
+            <span class="visually-hidden">Name</span>
+            <input
+              class="signup-input"
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              pattern="[A-Za-z' -]{2,}"
+              required
+            />
+          </label>
+
+          <label class="signup-field">
+            <span class="visually-hidden">Email</span>
+            <input
+              class="signup-input"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+            />
+          </label>
+
+          <label class="signup-field">
+            <span class="visually-hidden">Message</span>
+            <textarea
+              class="signup-textarea"
+              name="message"
+              placeholder="Message"
+              rows="6"
+            ></textarea>
+          </label>
+
+          <button class="signup-button" type="submit">
+            Send
+          </button>
+        </form>
+
+        <p class="signup-policy">
+          By clicking on “Send” button, you agree to our
+          <a href="#">Privacy Policy</a>,
+          and allow Promodo to use this information for marketing purposes.
+        </p>
+      </div>
+
+      <div class="signup-visual">
+        <div class="signup-lens-wrap">
+          <img
+            class="signup-lens"
+            src="/goit-html-css-project/assets/signup-lens-BWBv9S73.png"
+            srcset="/goit-html-css-project/assets/signup-lens-BWBv9S73.png 1x, /goit-html-css-project/assets/signup-lens@2x-CY74F-QY.png 2x"
+            alt="Camera lens"
+          />
+        </div>
+
+        <div class="signup-camera-wrap">
+          <img
+            class="signup-camera"
+            src="/goit-html-css-project/assets/signup-camera-nJ54Ls3y.png"
+            srcset="/goit-html-css-project/assets/signup-camera-nJ54Ls3y.png 1x, /goit-html-css-project/assets/signup-camera@2x-CveP-yt9.png 2x"
+            alt="Professional camera"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+
+    <ul class="reviews-list">
+      <li class="reviews-item">
+        <div class="reviews-user">
+          <img
+            class="reviews-avatar"
+            src="/goit-html-css-project/assets/reviewer-1-BLU_j9SP.png"
+            alt="Abraham Baker"
+            width="56"
+            height="56"
+          >
+
+          <div>
+            <h3 class="reviews-name">Abraham Baker</h3>
+            <p class="reviews-role">Student</p>
+          </div>
+        </div>
+
+        <div
+          class="reviews-rating"
+          role="img"
+          aria-label="4 out of 5 stars"
+        >
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star review-star-muted"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+        </div>
+
+        <p class="reviews-text">
+          I am very pleased that I decided to enroll in photography school.
+          The teachers turned out to be very talented and experienced
+          professionals who share their knowledge and are dedicated to their
+          work. I was able to expand my skills and discover my own style.
+        </p>
+      </li>
+
+      <li class="reviews-item">
+        <div class="reviews-user">
+          <img
+            class="reviews-avatar"
+            src="/goit-html-css-project/assets/reviewer-2-Drmv0QU2.png"
+            alt="Amanda Lowery"
+            width="56"
+            height="56"
+          >
+
+          <div>
+            <h3 class="reviews-name">Amanda Lowery</h3>
+            <p class="reviews-role">Student</p>
+          </div>
+        </div>
+
+        <div
+          class="reviews-rating"
+          role="img"
+          aria-label="4 out of 5 stars"
+        >
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+
+          <svg
+            class="review-star review-star-muted"
+            width="20"
+            height="20"
+            aria-hidden="true"
+          >
+            <use href="/goit-html-css-project/assets/icons-BsZathct.svg#icon-star"></use>
+          </svg>
+        </div>
+
+        <p class="reviews-text">
+          The courses at the photography school exceeded all my expectations.
+          I gained not only technical knowledge, but also inspiration and
+          motivation to reach new heights in my creativity. Hands-on classes
+          and workshops helped me understand different styles of photography.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+    </main>
+
+    <footer class="footer" id="contacts">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="./index.html">Focus.Frame</a>
+
+        <address class="footer-address">
+          <a class="footer-phone" href="tel:+380665438912">
+            +38 066 543 8912
+          </a>
+
+          <p>
+            1678 S. Pioneer Road Salt Lake City UT 84104
+          </p>
+        </address>
+      </div>
+
+      <div class="footer-socials">
+        <ul class="footer-list">
+          <li>
+            <a
+              class="footer-link"
+              href="https://www.instagram.com/goit.turkiye/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="footer-link"
+              href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="footer-link"
+              href="https://m.youtube.com/@GoITTurkey"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YouTube
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul class="footer-list">
+          <li>
+            <a class="footer-link" href="#about-us">About us</a>
+          </li>
+
+          <li>
+            <a class="footer-link" href="#courses">Our courses</a>
+          </li>
+
+          <li>
+            <a class="footer-link" href="#mentors">Our mentors</a>
+          </li>
+
+          <li>
+            <a class="footer-link" href="#reviews">Reviews</a>
+          </li>
+
+          <li>
+            <a class="footer-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <form class="footer-form">
+        <label class="visually-hidden" for="footer-email">
+          Email
+        </label>
+
+        <input
+          class="footer-input"
+          id="footer-email"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          required
+        />
+
+        <button class="footer-button" type="submit">
+          Go
+        </button>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Public Offering Agreement</a>
+      </div>
+
+      <p class="footer-copyright">
+        2024 Focus Frame<br />
+        © All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
