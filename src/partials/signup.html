@@ -1,0 +1,88 @@
+<section class="signup" id="signup">
+  <div class="container">
+    <div class="signup-content">
+      <div class="signup-text-wrap">
+        <h2 class="signup-title">
+          Sign <span class="signup-title-accent">Up</span>
+        </h2>
+
+        <p class="signup-description">
+          Please use the form below to contact us. Enter your name, email, and a
+          message, and we'll get back to you shortly.
+        </p>
+
+        <form class="signup-form">
+          <label class="signup-field">
+            <span class="visually-hidden">Name</span>
+            <input
+              class="signup-input"
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              pattern="[A-Za-z' -]{2,}"
+              required
+            />
+          </label>
+
+          <label class="signup-field">
+            <span class="visually-hidden">Email</span>
+            <input
+              class="signup-input"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+            />
+          </label>
+
+          <label class="signup-field">
+            <span class="visually-hidden">Message</span>
+            <textarea
+              class="signup-textarea"
+              name="message"
+              placeholder="Message"
+              rows="6"
+            ></textarea>
+          </label>
+
+          <button class="signup-button" type="submit">
+            Send
+          </button>
+        </form>
+
+        <p class="signup-policy">
+          By clicking on “Send” button, you agree to our
+          <a href="#">Privacy Policy</a>,
+          and allow Promodo to use this information for marketing purposes.
+        </p>
+      </div>
+
+      <div class="signup-visual">
+        <div class="signup-lens-wrap">
+          <img
+            class="signup-lens"
+            src="/src/images/signup-lens.png"
+            srcset="
+              /src/images/signup-lens.png 1x,
+              /src/images/signup-lens@2x.png 2x
+            "
+            alt="Camera lens"
+          />
+        </div>
+
+        <div class="signup-camera-wrap">
+          <img
+            class="signup-camera"
+            src="/src/images/signup-camera.png"
+            srcset="
+              /src/images/signup-camera.png 1x,
+              /src/images/signup-camera@2x.png 2x
+            "
+            alt="Professional camera"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

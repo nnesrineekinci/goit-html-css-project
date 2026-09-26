@@ -1,0 +1,167 @@
+.hero {
+  padding-top: 20px;
+}
+
+.hero-content {
+  padding: 40px 20px 0;
+
+  background-color: var(--color-secondary);
+  border-radius: 30px;
+}
+
+.hero-text-wrap {
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  max-width: 295px;
+
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.hero-title-accent {
+  color: var(--color-accent);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-description {
+  max-width: 295px;
+  margin-top: 20px;
+
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.hero-students {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  margin-top: 40px;
+}
+
+.hero-students-images {
+  display: flex;
+}
+
+.student-circle {
+  display: block;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: var(--color-accent);
+  border: 2px solid var(--color-secondary);
+  border-radius: 50%;
+}
+
+.student-circle:not(:first-child) {
+  margin-left: -12px;
+}
+
+.hero-reviews-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  max-width: 90px;
+
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.hero-arrow {
+  font-size: 20px;
+}
+
+.hero-image-wrap {
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 40px;
+  }
+
+  .hero-content {
+    padding: 64px 32px 0;
+  }
+
+  .hero-title {
+    max-width: 520px;
+
+    font-size: 60px;
+  }
+
+  .hero-description {
+    max-width: 420px;
+
+    font-size: 16px;
+  }
+
+  .hero-students {
+    margin-top: 50px;
+  }
+
+  .student-circle {
+    width: 54px;
+    height: 54px;
+  }
+
+  .hero-image {
+    max-width: 420px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 20px;
+  }
+
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    min-height: 600px;
+
+    padding: 80px 50px 0;
+  }
+
+  .hero-text-wrap {
+    margin-bottom: 80px;
+  }
+
+  .hero-title {
+    max-width: 560px;
+
+    font-size: 64px;
+  }
+
+  .hero-description {
+    max-width: 420px;
+  }
+
+  .hero-image-wrap {
+    width: 400px;
+    flex-shrink: 0;
+  }
+
+  .hero-image {
+    max-width: 400px;
+  }
+}

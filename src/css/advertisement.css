@@ -1,0 +1,70 @@
+.advertisement {
+  overflow: hidden;
+
+  padding: 20px 0;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.advertisement-track {
+  display: flex;
+  width: max-content;
+
+  animation: advertisement-marquee 14s linear infinite;
+}
+
+.advertisement-text {
+  flex-shrink: 0;
+
+  padding-right: 40px;
+
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.advertisement-accent {
+  color: var(--color-accent);
+}
+
+@keyframes advertisement-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement {
+    padding: 24px 0;
+  }
+
+  .advertisement-text {
+    padding-right: 60px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    padding: 28px 0;
+  }
+
+  .advertisement-text {
+    padding-right: 80px;
+    font-size: 50px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .advertisement-track {
+    animation: none;
+  }
+}
