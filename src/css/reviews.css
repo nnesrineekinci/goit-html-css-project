@@ -1,5 +1,5 @@
 .reviews {
-  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .reviews-title {
@@ -8,7 +8,6 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -0.04em;
 }
 
 .reviews-list {
@@ -29,10 +28,10 @@
   align-items: center;
   gap: 10px;
 
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.reviews-avatar {
+.review-avatar {
   width: 56px;
   height: 56px;
 
@@ -40,7 +39,7 @@
   border-radius: 50%;
 }
 
-.reviews-name {
+.reviews-user-name {
   margin-bottom: 4px;
 
   font-size: 20px;
@@ -48,7 +47,7 @@
   line-height: 1.2;
 }
 
-.reviews-role {
+.reviews-user-status {
   font-size: 12px;
   line-height: 1.33;
 
@@ -64,6 +63,7 @@
 
 .review-star {
   display: block;
+
   color: var(--color-accent);
 }
 
@@ -73,29 +73,36 @@
 
 .reviews-text {
   font-size: 14px;
-  line-height: 1.29;
+  line-height: 1.28;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 768px) {
   .reviews {
-    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .reviews-title {
     margin-bottom: 50px;
+
     font-size: 48px;
+    line-height: 1.12;
+  }
+
+  .reviews-item {
+    padding: 20px;
   }
 
   .reviews-text {
     font-size: 16px;
+    line-height: 1.25;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .reviews {
-    padding-top: 120px;
+    padding-bottom: 150px;
   }
 
   .reviews-list {
